@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import messi from "../../../assets/img/messi.jpg"
-import ronaldo from "../../../assets/img/ronaldo.jpg"
-import ney from "../../../assets/img/ney.jpg"
+import evane from "../../../assets/img/evane.jpeg"
+import Lk from "../../../assets/img/Lk.png"
+import mago from "../../../assets/img/mago.jpeg"
 
 export const Inicio = () => {
   return (
@@ -9,13 +9,13 @@ export const Inicio = () => {
       <div id="carouselExampleFade" className="carousel slide carousel-fade">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={ney} className="d-block w-100" alt="" />
+            <img src={Lk} className="d-block w-100" alt="" />
           </div>
           <div className="carousel-item">
-            <img src={messi} className="d-block w-100" alt="" />
+            <img src={evane} className="d-block w-100" alt="" />
           </div>
           <div className="carousel-item">
-            <img src={ronaldo} className="d-block w-100" alt="" />
+            <img src={mago} className="d-block w-100" alt="" />
           </div>
         </div>
         <button

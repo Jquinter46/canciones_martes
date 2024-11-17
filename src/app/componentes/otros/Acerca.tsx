@@ -1,8 +1,8 @@
 export const Acerca = () => {
     return (
       <>
-        Acerca de <br />
-        El de la información...
+        Bienvenidos a tu reproductor de musica <br />
+        Totalmente gratis... 
       </>
     );
   };
