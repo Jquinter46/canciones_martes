@@ -31,15 +31,16 @@ export const CancionListar = () => {
             </thead>
             <tbody>
             {arrCanciones.map((mican: Cancion)=>(
-              <tr key={mican.codCancion}>
+              <tr key={mican.codCancion} className="align-middle">
               <td>{mican.codCancion}</td>
               <td>{mican.tituloCancion}</td>
               <td>{mican.cantanteCancion}</td>
               <td>{nombreGenero(mican.codgeneroCancion)}</td>
               <td>
-                <img src={mican.imagenCancionBase64} alt="" className="imagenListado" />
-                <br />
-                {mican.imagenCancion}</td>
+                <img src={mican.imagenCancionBase64} alt="no hay" className="imagenListado" />
+                <br />                
+                {mican.imagenCancion}                
+              </td>
             </tr>
             ))}
             </tbody>
