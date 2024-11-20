@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import eladio from "../../../assets/img/eladio.avif"
 import omy from "../../../assets/img/omy.jpg"
 import ryan from "../../../assets/img/ryan.webp"
